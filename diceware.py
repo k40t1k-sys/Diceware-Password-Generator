@@ -1,7 +1,7 @@
 import time
 
 # Implementation of random funtion.
-# Not using pre built library for randomization for dice roll.
+# Not using pre built random library.
 
 def random():
     x = time.thread_time_ns()
@@ -18,7 +18,7 @@ def random():
 def dicenumber():
     diceout = ""
     for i in range(5): # 5 dice rolls
-        diceout += str((random() % 6) + 1) # add result of dice roll to variable
+        diceout += str((random() % 6) + 1) # Gives a random number between 1 to 6 and adds it to the diceout variable.
     return diceout
 
 
