@@ -1,3 +1,7 @@
+# Program to generate a password using dice-ware password generating algorithm.
+# Ask the user how many words he wants in his password and program will generate
+# that many words using the dictionary.
+
 import time
 
 # Implementation of random funtion.
@@ -34,7 +38,7 @@ def diceware(x):
 # Ask the user for no. words to be present in the password.
 # The more no of words present the more hard it is to break the code.
 
-limit = int(input("How maany words do you want in your password : "))
+limit = int(input("How many words do you want in your password : "))
 
 pswd = ''
 
